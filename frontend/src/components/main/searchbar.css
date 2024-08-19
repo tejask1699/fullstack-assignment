@@ -1,0 +1,44 @@
+.searchbarContainer {
+  background-color: #dadbf0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+.searchbarHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+.searchbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.searchbarHeaderText {
+  font-weight: 400;
+  font-size: 50px;
+}
+.searchbarInput {
+  width: 50em;
+  height: 100%;
+  padding: 8px 40px 8px 20px;
+  box-sizing: border-box;
+  border-radius: 14px;
+  border: 1px solid #fff;
+}
+.searchbarButton {
+  position: absolute;
+  right: 0;
+  width: 50px;
+  height: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
+.searchbarInput:focus {
+  outline: none;
+}

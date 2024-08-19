@@ -1,0 +1,31 @@
+.cardContainer {
+  border: 1px solid #dae1e6;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 16px;
+  transition: transform 0.3s ease;
+}
+
+.cardHr {
+  margin: 20px 0;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-body {
+  padding: 16px;
+}
+
+.card-title {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.card-content {
+  font-weight: 400;
+  font-size: 15px;
+  color: #666;
+}
